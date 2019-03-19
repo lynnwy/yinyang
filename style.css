@@ -69,7 +69,9 @@ body{
     background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(0,0,0,1) 51%,rgba(0,0,0,1) 100%);
     position:relative;
      animation-name: slidein;
-    animation-duration:3s;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
   }
   
   #yinyang1::before{
@@ -97,7 +99,7 @@ body{
     
   }
   
-  
+  p{color:#ffffff;}
   
   
   
